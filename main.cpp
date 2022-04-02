@@ -22,5 +22,13 @@ int main()
 	else
 		cout << "max el. = " << b << '\n';
 
+	cout << "output min: ";
+
+	if (a > b)
+		cout << "min el. = " << b << '\n';
+
+	else
+		cout << "min el. = " << a << '\n';
+
 	return 0;
 }
